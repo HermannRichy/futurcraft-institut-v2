@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import CookieBanner from "@/components/CookieBanner";
 import { Outfit } from "next/font/google";
 import localFont from "next/font/local";
 import { ThemeProvider } from "next-themes";
@@ -36,6 +37,7 @@ export default function RootLayout({
                     disableTransitionOnChange
                 >
                     {children}
+                    <CookieBanner />
                 </ThemeProvider>
             </body>
         </html>

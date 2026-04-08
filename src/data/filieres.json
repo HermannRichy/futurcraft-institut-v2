@@ -1,0 +1,797 @@
+{
+    "filieres": [
+        {
+            "id": "dev-web-fullstack",
+            "nom": "Développement Web Fullstack",
+            "categorie": "tech",
+            "niveau": "diplome",
+            "duree": "2 ans",
+            "duree_mois": 24,
+            "scolarite": 300000,
+            "scolarite_label": "300 000 FCFA / an",
+            "scolarite_type": "annuel",
+            "diplome_requis": "Baccalauréat",
+            "vedette": true,
+            "image": "/fci-loic-dev.jpeg",
+            "description": "Formez-vous aux métiers du développement web avec une approche complète, alliant front-end et back-end. Vous maîtriserez les technologies les plus demandées du marché pour concevoir des applications web modernes, performantes et scalables, de la maquette à la mise en production.",
+            "contenu_formation": [
+                "Création d'interfaces web modernes et réactives",
+                "Développement front-end avec HTML, CSS et JavaScript",
+                "Frameworks modernes : React.js et Next.js",
+                "Développement back-end avec Node.js et Express",
+                "Bases de données relationnelles et non-relationnelles",
+                "Conception et consommation d'APIs REST et GraphQL",
+                "Déploiement, hébergement et notions DevOps",
+                "Gestion de version avec Git et GitHub",
+                "Projets fullstack complets en conditions réelles"
+            ],
+            "modules": [
+                {
+                    "titre": "Fondamentaux du Web",
+                    "description": "HTML5 sémantique, CSS3 avancé, Flexbox, Grid, responsive design et accessibilité."
+                },
+                {
+                    "titre": "JavaScript Moderne",
+                    "description": "ES6+, manipulation du DOM, programmation asynchrone, Fetch API et gestion des erreurs."
+                },
+                {
+                    "titre": "Front-end avec React.js",
+                    "description": "Composants, hooks, gestion d'état (Context, Redux), routing et optimisation des performances."
+                },
+                {
+                    "titre": "Back-end avec Node.js",
+                    "description": "Serveurs Express, middlewares, authentification JWT, gestion des sessions et sécurité des APIs."
+                },
+                {
+                    "titre": "Bases de données",
+                    "description": "Modélisation relationnelle avec PostgreSQL, bases NoSQL avec MongoDB, ORMs et requêtes optimisées."
+                },
+                {
+                    "titre": "APIs & Intégrations",
+                    "description": "Conception d'APIs RESTful, introduction à GraphQL, documentation avec Swagger et tests d'endpoints."
+                },
+                {
+                    "titre": "Déploiement & DevOps",
+                    "description": "Hébergement sur Vercel et Railway, introduction à Docker, pipelines CI/CD et gestion des environnements."
+                },
+                {
+                    "titre": "Projet de fin d'études",
+                    "description": "Conception et réalisation d'une application web complète en équipe, de la spécification au déploiement."
+                }
+            ],
+            "competences": [
+                "HTML5 & CSS3",
+                "JavaScript ES6+",
+                "React.js & Next.js",
+                "Node.js & Express.js",
+                "PostgreSQL & MongoDB",
+                "APIs REST & GraphQL",
+                "Git & GitHub",
+                "Docker & CI/CD",
+                "Figma (bases)"
+            ],
+            "debouches": [
+                "Développeur Web Fullstack",
+                "Développeur Front-end",
+                "Développeur Back-end",
+                "Ingénieur Logiciel",
+                "Développeur d'applications mobiles (React Native)",
+                "Freelance & Entrepreneur digital"
+            ]
+        },
+        {
+            "id": "cybersecurite",
+            "nom": "Cybersécurité",
+            "categorie": "securite",
+            "niveau": "diplome",
+            "duree": "2 ans",
+            "duree_mois": 24,
+            "scolarite": 300000,
+            "scolarite_label": "300 000 FCFA / an",
+            "scolarite_type": "annuel",
+            "diplome_requis": "Baccalauréat",
+            "vedette": true,
+            "image": "/fci-ceo-2.jpeg",
+            "description": "Dans un monde de plus en plus connecté, la cybersécurité est devenue un enjeu stratégique majeur. Cette formation vous prépare à anticiper, détecter et contrer les cybermenaces, à sécuriser les systèmes d'information et à accompagner les organisations dans leur mise en conformité réglementaire.",
+            "contenu_formation": [
+                "Cybersécurité et architecture des réseaux sécurisés",
+                "Protection des systèmes d'exploitation et des applications",
+                "Cryptographie et gestion des pare-feu",
+                "Analyse des vulnérabilités et tests d'intrusion",
+                "Gestion des incidents et plan de réponse (CSIRT)",
+                "Normes et législation en cybersécurité (RGPD, ISO 27001)",
+                "Forensique numérique et investigation",
+                "Cyberdéfense et threat intelligence"
+            ],
+            "modules": [
+                {
+                    "titre": "Réseaux & Protocoles",
+                    "description": "Architecture TCP/IP, protocoles de communication, segmentation réseau, VPN et Wi-Fi sécurisé."
+                },
+                {
+                    "titre": "Sécurité des Systèmes",
+                    "description": "Hardening des systèmes Linux et Windows, gestion des droits d'accès, sécurisation des serveurs."
+                },
+                {
+                    "titre": "Cryptographie Appliquée",
+                    "description": "Chiffrement symétrique et asymétrique, PKI, certificats SSL/TLS, hachage et signatures numériques."
+                },
+                {
+                    "titre": "Tests d'Intrusion (Pentesting)",
+                    "description": "Méthodologie PTES, reconnaissance, exploitation et post-exploitation avec Kali Linux et Metasploit."
+                },
+                {
+                    "titre": "Analyse des Vulnérabilités",
+                    "description": "Scan de vulnérabilités, analyse de code source, OWASP Top 10 et sécurisation des applications web."
+                },
+                {
+                    "titre": "Gestion des Incidents",
+                    "description": "Détection d'intrusions (SIEM), plan de réponse aux incidents, communication de crise et reprise d'activité."
+                },
+                {
+                    "titre": "Droit & Conformité",
+                    "description": "RGPD, ISO 27001, cadre légal de la cybersécurité en Afrique, responsabilités et obligations des RSSI."
+                },
+                {
+                    "titre": "Projet de fin d'études",
+                    "description": "Audit de sécurité complet d'un système d'information fictif avec rapport de vulnérabilités et recommandations."
+                }
+            ],
+            "competences": [
+                "Kali Linux & Metasploit",
+                "Pare-feu & IDS/IPS",
+                "Analyse réseau (Wireshark)",
+                "SIEM (Splunk, Wazuh)",
+                "Tests d'intrusion",
+                "Cryptographie",
+                "RGPD & ISO 27001",
+                "Forensique numérique",
+                "Threat Intelligence"
+            ],
+            "debouches": [
+                "Analyste en Sécurité Informatique",
+                "Consultant en Cybersécurité",
+                "Administrateur Sécurité Réseau",
+                "Responsable Sécurité des SI (RSSI)",
+                "Expert en Cyberdéfense",
+                "Spécialiste en Protection des Données"
+            ]
+        },
+        {
+            "id": "developpement-ia",
+            "nom": "Développement IA",
+            "categorie": "tech",
+            "niveau": "professionnel",
+            "duree": "1 an",
+            "duree_mois": 12,
+            "scolarite": 300000,
+            "scolarite_label": "300 000 FCFA",
+            "scolarite_type": "total",
+            "diplome_requis": "Baccalauréat",
+            "vedette": true,
+            "image": "/fci-esaie-dev.jpeg",
+            "description": "L'intelligence artificielle redéfinit tous les secteurs d'activité. Cette formation intensive vous donne les bases mathématiques, les compétences en programmation et les outils pratiques pour concevoir, entraîner et déployer des modèles d'IA dans des contextes professionnels réels.",
+            "contenu_formation": [
+                "Mathématiques et statistiques pour l'IA",
+                "Python pour la science des données",
+                "Apprentissage automatique supervisé et non supervisé",
+                "Réseaux de neurones et Deep Learning",
+                "Traitement du langage naturel (NLP)",
+                "Vision par ordinateur",
+                "Développement et déploiement d'applications IA",
+                "Éthique de l'IA et biais algorithmiques"
+            ],
+            "modules": [
+                {
+                    "titre": "Mathématiques pour l'IA",
+                    "description": "Algèbre linéaire, calcul différentiel, probabilités et statistiques descriptives appliquées à l'IA."
+                },
+                {
+                    "titre": "Python & Data Science",
+                    "description": "Python avancé, NumPy, Pandas, Matplotlib et Seaborn pour l'analyse et la visualisation de données."
+                },
+                {
+                    "titre": "Machine Learning",
+                    "description": "Régression, classification, clustering, arbres de décision, SVM et Random Forest avec Scikit-learn."
+                },
+                {
+                    "titre": "Deep Learning",
+                    "description": "Réseaux de neurones convolutifs (CNN), réseaux récurrents (RNN/LSTM), optimisation et régularisation."
+                },
+                {
+                    "titre": "NLP & Traitement du Texte",
+                    "description": "Tokenisation, embeddings, transformers, BERT et utilisation d'APIs de modèles de langage (LLM)."
+                },
+                {
+                    "titre": "Vision par Ordinateur",
+                    "description": "Détection d'objets, segmentation d'images, reconnaissance faciale avec OpenCV et YOLO."
+                },
+                {
+                    "titre": "Déploiement de Modèles IA",
+                    "description": "MLOps, création d'APIs IA avec FastAPI, déploiement sur le cloud et monitoring de modèles en production."
+                },
+                {
+                    "titre": "Projet de fin de formation",
+                    "description": "Conception et livraison d'une application IA complète répondant à une problématique métier réelle."
+                }
+            ],
+            "competences": [
+                "Python (NumPy, Pandas, Matplotlib)",
+                "Scikit-learn",
+                "TensorFlow & PyTorch",
+                "Hugging Face Transformers",
+                "OpenCV",
+                "FastAPI & déploiement cloud",
+                "SQL & gestion de données",
+                "MLflow & MLOps"
+            ],
+            "debouches": [
+                "Développeur IA",
+                "Data Scientist",
+                "Ingénieur Machine Learning",
+                "Ingénieur MLOps",
+                "Chef de Projet IA"
+            ]
+        },
+        {
+            "id": "intelligence-artificielle",
+            "nom": "Intelligence Artificielle",
+            "categorie": "tech",
+            "niveau": "initiation",
+            "duree": "2 mois",
+            "duree_mois": 2,
+            "scolarite": 70000,
+            "scolarite_label": "70 000 FCFA",
+            "scolarite_type": "total",
+            "diplome_requis": "Baccalauréat",
+            "vedette": false,
+            "image": "/fci-ange-dev.jpeg",
+            "description": "Une formation courte et dense pour acquérir rapidement les fondamentaux et les outils pratiques de l'intelligence artificielle. Idéale pour les professionnels souhaitant intégrer l'IA dans leur quotidien ou changer de voie, cette formation met l'accent sur la pratique et les projets concrets.",
+            "contenu_formation": [
+                "Introduction à l'IA et panorama de ses applications",
+                "Apprentissage profond et réseaux de neurones",
+                "Science des données avancée",
+                "Développement d'algorithmes IA",
+                "Outils IA no-code et low-code",
+                "Projets IA innovants et cas d'usage réels"
+            ],
+            "modules": [
+                {
+                    "titre": "Introduction à l'IA",
+                    "description": "Histoire, panorama des technologies IA, machine learning vs deep learning, cas d'usage par secteur."
+                },
+                {
+                    "titre": "Outils No-Code & Low-Code IA",
+                    "description": "Utilisation de Make, Zapier, RunwayML, Midjourney, ChatGPT API et autres outils IA accessibles."
+                },
+                {
+                    "titre": "Algorithmes & Modèles IA",
+                    "description": "Fonctionnement des algorithmes de classification, régression et génération, avec mise en pratique guidée."
+                },
+                {
+                    "titre": "Science des Données Avancée",
+                    "description": "Préparation, nettoyage et analyse des données, visualisation et interprétation des résultats."
+                },
+                {
+                    "titre": "Projets IA Innovants",
+                    "description": "Réalisation de mini-projets IA appliqués : chatbot, classifieur d'images, outil de recommandation."
+                }
+            ],
+            "competences": [
+                "Outils IA no-code (Make, Zapier)",
+                "Utilisation des LLMs (ChatGPT, Gemini)",
+                "Python (bases)",
+                "Analyse de données",
+                "Prompt engineering",
+                "Automatisation par l'IA"
+            ],
+            "debouches": [
+                "Data Scientist (junior)",
+                "Ingénieur IA (junior)",
+                "Architecte de Solutions IA",
+                "Chef de Projet Data",
+                "Consultant en transformation digitale"
+            ]
+        },
+        {
+            "id": "audiovisuel",
+            "nom": "Audiovisuel",
+            "categorie": "creatif",
+            "niveau": "professionnel",
+            "duree": "1 an",
+            "duree_mois": 12,
+            "scolarite": 300000,
+            "scolarite_label": "300 000 FCFA",
+            "scolarite_type": "total",
+            "diplome_requis": "BEPC",
+            "vedette": false,
+            "image": "/fci-audiovisuel.jpeg",
+            "description": "Une formation professionnelle, intensive et 100 % pratique qui vous prépare à tous les métiers de l'image et du son. Avec des équipements professionnels, vous apprendrez à maîtriser l'ensemble de la chaîne audiovisuelle, de la prise de vue à la post-production, en passant par la création de contenus numériques.",
+            "contenu_formation": [
+                "Fondamentaux du graphisme et de la composition visuelle",
+                "Photographie professionnelle et studio",
+                "Montage vidéo et post-production",
+                "Motion design et effets visuels",
+                "Création de contenu pour le digital et les réseaux sociaux",
+                "Pilotage de drone et prises de vue aériennes",
+                "Color grading et étalonnage",
+                "Production et gestion de projet audiovisuel"
+            ],
+            "modules": [
+                {
+                    "titre": "Graphisme & Composition",
+                    "description": "Théorie des couleurs, typographie, mise en page et composition visuelle avec Adobe Photoshop et Illustrator."
+                },
+                {
+                    "titre": "Photographie Professionnelle",
+                    "description": "Maîtrise de l'appareil photo, éclairage, cadrage, retouche photo avec Lightroom et Photoshop."
+                },
+                {
+                    "titre": "Montage Vidéo",
+                    "description": "Montage narratif et dynamique avec Adobe Premiere Pro et DaVinci Resolve, synchronisation audio."
+                },
+                {
+                    "titre": "Motion Design & VFX",
+                    "description": "Animation, transitions et effets visuels avec Adobe After Effects, motion graphics et titrage."
+                },
+                {
+                    "titre": "Création de Contenu Digital",
+                    "description": "Formats courts pour Instagram, TikTok et YouTube, storytelling visuel, stratégie de publication."
+                },
+                {
+                    "titre": "Pilotage de Drone",
+                    "description": "Réglementation aérienne, pilotage en conditions réelles, captation aérienne et intégration au montage."
+                },
+                {
+                    "titre": "Color Grading & Son",
+                    "description": "Étalonnage colorimétrique, correction des couleurs, mixage audio de base et habillage sonore."
+                },
+                {
+                    "titre": "Projet de fin de formation",
+                    "description": "Réalisation d'un court-métrage, d'un clip ou d'une campagne de contenu complète en conditions professionnelles."
+                }
+            ],
+            "competences": [
+                "Adobe Premiere Pro",
+                "DaVinci Resolve",
+                "Adobe After Effects",
+                "Adobe Photoshop & Lightroom",
+                "Adobe Illustrator",
+                "Pilotage de drone",
+                "Captation et éclairage",
+                "Color grading"
+            ],
+            "debouches": [
+                "Vidéaste & Cameraman",
+                "Monteur Vidéo",
+                "Photographe Professionnel",
+                "Créateur de Contenu Digital",
+                "Motion Designer",
+                "Graphiste"
+            ]
+        },
+        {
+            "id": "marketing-digital",
+            "nom": "Marketing Digital",
+            "categorie": "business",
+            "niveau": "professionnel",
+            "duree": "9 mois",
+            "duree_mois": 9,
+            "scolarite": 250000,
+            "scolarite_label": "250 000 FCFA",
+            "scolarite_type": "total",
+            "diplome_requis": "BEPC",
+            "vedette": false,
+            "image": "/fci-plein-air-1.jpeg",
+            "description": "Le marketing digital est au cœur de la croissance de toutes les entreprises modernes. Cette formation vous donne les outils, les stratégies et les réflexes pour développer la présence en ligne d'une marque, attirer des clients, gérer des communautés et analyser les performances de vos campagnes.",
+            "contenu_formation": [
+                "Stratégie marketing digitale et positionnement de marque",
+                "SEO et référencement naturel",
+                "Gestion des réseaux sociaux et community management",
+                "Publicité en ligne (Google Ads, Meta Ads)",
+                "Email marketing et automation",
+                "Création de contenu (texte, visuel, vidéo)",
+                "Analyse des données marketing (KPIs, Google Analytics)",
+                "E-réputation et personal branding"
+            ],
+            "modules": [
+                {
+                    "titre": "Stratégie Digitale",
+                    "description": "Élaboration d'une stratégie marketing digitale : analyse de marché, personas, tunnel de conversion et plan d'action."
+                },
+                {
+                    "titre": "SEO & Référencement",
+                    "description": "Optimisation on-page et off-page, recherche de mots-clés, création de liens et audits SEO avec Semrush."
+                },
+                {
+                    "titre": "Community Management",
+                    "description": "Gestion des pages et comptes sur Facebook, Instagram, LinkedIn, TikTok, planification et animation de communauté."
+                },
+                {
+                    "titre": "Publicité en Ligne",
+                    "description": "Création et gestion de campagnes Google Ads et Meta Ads, ciblage, budgétisation, A/B testing et optimisation."
+                },
+                {
+                    "titre": "Création de Contenu",
+                    "description": "Copywriting, production visuelle avec Canva, vidéos courtes pour les réseaux sociaux et calendrier éditorial."
+                },
+                {
+                    "titre": "Email Marketing & Automation",
+                    "description": "Création de newsletters, séquences d'emails automatisées, segmentation et optimisation des taux d'ouverture."
+                },
+                {
+                    "titre": "Analyse & Reporting",
+                    "description": "Suivi des KPIs, tableaux de bord Google Analytics et Meta Business Suite, interprétation et optimisation des résultats."
+                }
+            ],
+            "competences": [
+                "Google Analytics & Search Console",
+                "Meta Business Suite",
+                "Google Ads & Meta Ads",
+                "SEO (Semrush, Ubersuggest)",
+                "Community management",
+                "Canva & CapCut",
+                "Email marketing (Mailchimp)",
+                "Copywriting"
+            ],
+            "debouches": [
+                "Community Manager",
+                "Traffic Manager",
+                "Chargé de Communication Digitale",
+                "Responsable Marketing Digital",
+                "Consultant en Marketing Digital",
+                "Freelance Marketing"
+            ]
+        },
+        {
+            "id": "secretariat-bureautique-caisse",
+            "nom": "Secrétariat, Bureautique & Caisse",
+            "categorie": "business",
+            "niveau": "diplome",
+            "duree": "2 ans",
+            "duree_mois": 24,
+            "scolarite": 250000,
+            "scolarite_label": "250 000 FCFA / an",
+            "scolarite_type": "annuel",
+            "diplome_requis": "BEPC",
+            "vedette": false,
+            "image": "/fci-classroom.jpeg",
+            "description": "Cette formation complète vous prépare aux fonctions administratives et de gestion au sein des entreprises, administrations et organisations. Alliant bureautique, accueil professionnel et gestion de caisse, elle forme des profils polyvalents, indispensables au bon fonctionnement de toute structure.",
+            "contenu_formation": [
+                "Gestion administrative et documentaire",
+                "Accueil, protocole et communication professionnelle",
+                "Gestion de la caisse et comptabilité de base",
+                "Maîtrise des outils bureautiques (Word, Excel, PowerPoint)",
+                "Correspondance commerciale et rédaction professionnelle",
+                "Classement, archivage et gestion électronique de documents",
+                "Gestion du temps et organisation du travail",
+                "Communication interpersonnelle en entreprise"
+            ],
+            "modules": [
+                {
+                    "titre": "Bureautique Avancée",
+                    "description": "Microsoft Word (mise en page, publipostage), Excel (tableaux, formules, graphiques), PowerPoint (présentations professionnelles)."
+                },
+                {
+                    "titre": "Gestion Administrative",
+                    "description": "Organisation des dossiers, gestion du courrier entrant et sortant, rédaction de comptes-rendus et procès-verbaux."
+                },
+                {
+                    "titre": "Accueil & Communication",
+                    "description": "Accueil physique et téléphonique, protocole d'entreprise, gestion des conflits et communication non-verbale."
+                },
+                {
+                    "titre": "Comptabilité & Caisse",
+                    "description": "Principes de comptabilité générale, gestion d'une caisse, établissement de factures, suivi des paiements et rapports de caisse."
+                },
+                {
+                    "titre": "Correspondance Professionnelle",
+                    "description": "Rédaction de lettres commerciales, emails professionnels, rapports et notes de service en français et en anglais."
+                },
+                {
+                    "titre": "Classement & Archivage",
+                    "description": "Méthodes de classement physique et numérique, gestion électronique de documents (GED) et archivage légal."
+                },
+                {
+                    "titre": "Soft Skills & Développement Personnel",
+                    "description": "Gestion du stress, organisation personnelle, travail en équipe, éthique professionnelle et présentation de soi."
+                }
+            ],
+            "competences": [
+                "Microsoft Word, Excel & PowerPoint",
+                "Gestion documentaire",
+                "Accueil téléphonique et physique",
+                "Comptabilité de base",
+                "Rédaction professionnelle",
+                "Gestion de caisse",
+                "Organisation & planification",
+                "Communication interpersonnelle"
+            ],
+            "debouches": [
+                "Secrétaire de Direction",
+                "Assistant(e) Administratif(ve)",
+                "Caissier(ère)",
+                "Gestionnaire Administratif(ve)",
+                "Réceptionniste",
+                "Agent de saisie et de gestion documentaire"
+            ]
+        },
+        {
+            "id": "graphisme-web-design",
+            "nom": "Graphisme & Web Design",
+            "categorie": "creatif",
+            "niveau": "professionnel",
+            "duree": "9 mois",
+            "duree_mois": 9,
+            "scolarite": 300000,
+            "scolarite_label": "300 000 FCFA",
+            "scolarite_type": "total",
+            "diplome_requis": "BEPC",
+            "vedette": true,
+            "image": "/fci-dolores-dev.jpeg",
+            "description": "Le design est le premier langage d'une marque. Cette formation vous apprend à créer des identités visuelles fortes, des interfaces digitales intuitives et des supports de communication percutants. Vous maîtriserez les outils professionnels du secteur et développerez un regard créatif ancré dans les usages réels.",
+            "contenu_formation": [
+                "Fondamentaux du design graphique et théorie des couleurs",
+                "Typographie et mise en page professionnelle",
+                "Création d'identités visuelles et branding",
+                "Web design et maquettage d'interfaces (Figma)",
+                "UI/UX Design et expérience utilisateur",
+                "Design pour les réseaux sociaux et supports digitaux",
+                "Bases du motion design",
+                "Constitution d'un portfolio professionnel"
+            ],
+            "modules": [
+                {
+                    "titre": "Fondamentaux du Design",
+                    "description": "Principes de composition, théorie des couleurs, typographie, hiérarchie visuelle et grilles de mise en page."
+                },
+                {
+                    "titre": "Identité Visuelle & Branding",
+                    "description": "Création de logos, chartes graphiques, systèmes d'identité visuelle cohérents avec Adobe Illustrator et Photoshop."
+                },
+                {
+                    "titre": "Maquettage & Prototypage (Figma)",
+                    "description": "Wireframing, maquettes haute-fidélité, prototypes interactifs, design system et collaboration avec les développeurs."
+                },
+                {
+                    "titre": "UI/UX Design",
+                    "description": "Recherche utilisateur, personas, parcours utilisateur, heuristiques de Nielsen, tests d'utilisabilité et itération."
+                },
+                {
+                    "titre": "Design Digital & Réseaux Sociaux",
+                    "description": "Création de visuels pour Instagram, Facebook, LinkedIn, bannières web, newsletters et supports publicitaires."
+                },
+                {
+                    "titre": "Photographie & Retouche",
+                    "description": "Bases de la prise de vue, retouche professionnelle avec Photoshop et Lightroom, direction artistique photo."
+                },
+                {
+                    "titre": "Motion Design (Initiation)",
+                    "description": "Animation de logos et d'éléments graphiques, transitions et compositions animées avec Adobe After Effects."
+                },
+                {
+                    "titre": "Portfolio & Présentation Client",
+                    "description": "Construction d'un portfolio professionnel en ligne, pitch de projets, brief client et gestion des retours."
+                }
+            ],
+            "competences": [
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Figma",
+                "Adobe After Effects (bases)",
+                "Adobe Lightroom",
+                "Canva Pro",
+                "Principes UI/UX",
+                "Branding & identité visuelle"
+            ],
+            "debouches": [
+                "Web Designer",
+                "Graphiste",
+                "UI/UX Designer",
+                "Directeur Artistique (junior)",
+                "Motion Designer (junior)",
+                "Chef de Projet Digital"
+            ]
+        },
+        {
+            "id": "pilotage-de-drone",
+            "nom": "Pilotage de Drone",
+            "categorie": "creatif",
+            "niveau": "initiation",
+            "duree": "2 mois",
+            "duree_mois": 2,
+            "scolarite": 100000,
+            "scolarite_label": "100 000 FCFA",
+            "scolarite_type": "total",
+            "diplome_requis": "BEPC",
+            "vedette": false,
+            "image": "/fci-audiovisuel-3.jpeg",
+            "description": "Formation pratique et réglementaire au pilotage professionnel de drones, axée sur les applications concrètes dans l'audiovisuel, l'agriculture, l'immobilier et l'événementiel. À l'issue de cette formation, vous serez capable de piloter en sécurité, de réaliser des prises de vue aériennes de qualité et de traiter les données collectées.",
+            "contenu_formation": [
+                "Réglementation aérienne et cadre légal du pilotage de drone",
+                "Principes de vol et aérodynamique appliquée aux drones",
+                "Pilotage en conditions réelles (intérieur et extérieur)",
+                "Prises de vue aériennes photo et vidéo",
+                "Traitement et post-production des données aériennes",
+                "Maintenance et entretien des drones",
+                "Applications professionnelles par secteur"
+            ],
+            "modules": [
+                {
+                    "titre": "Réglementation & Sécurité",
+                    "description": "Cadre réglementaire national et international, classification des drones, zones de vol autorisées et procédures de sécurité."
+                },
+                {
+                    "titre": "Aérodynamique & Mécanique",
+                    "description": "Principes de vol des multirotors, composants essentiels, autonomie, moteurs, hélices et systèmes de stabilisation."
+                },
+                {
+                    "titre": "Pilotage Pratique",
+                    "description": "Prise en main progressive, manœuvres de base et avancées, gestion des situations d'urgence et vol en environnement complexe."
+                },
+                {
+                    "titre": "Captation Aérienne",
+                    "description": "Réglages caméra, mouvements cinématographiques, compositions aériennes, éclairage naturel et gestion des conditions météo."
+                },
+                {
+                    "titre": "Post-production & Traitement des Données",
+                    "description": "Montage de prises de vue aériennes, color grading, photogrammétrie, cartographie et analyse de données géospatiales."
+                },
+                {
+                    "titre": "Applications Professionnelles",
+                    "description": "Mise en situation dans les domaines de l'immobilier, de l'événementiel, de l'agriculture et de l'audiovisuel professionnel."
+                }
+            ],
+            "competences": [
+                "Pilotage de drones multirotors",
+                "Réglementation aérienne",
+                "Prise de vue aérienne (photo & vidéo)",
+                "Post-traitement d'images aériennes",
+                "Photogrammétrie & cartographie",
+                "Maintenance de drones"
+            ],
+            "debouches": [
+                "Pilote de Drone Professionnel",
+                "Opérateur de Prises de Vue Aériennes",
+                "Technicien en Données Géospatiales",
+                "Prestataire Drone (audiovisuel, immobilier, agriculture)",
+                "Chef de Projet Drone"
+            ]
+        },
+        {
+            "id": "e-commerce",
+            "nom": "E-Commerce",
+            "categorie": "business",
+            "niveau": "professionnel",
+            "duree": "6 mois",
+            "duree_mois": 6,
+            "scolarite": 200000,
+            "scolarite_label": "200 000 FCFA",
+            "scolarite_type": "total",
+            "diplome_requis": "BEPC",
+            "vedette": false,
+            "image": "/fci-guy-dev.jpeg",
+            "description": "L'e-commerce est l'un des secteurs les plus dynamiques de l'économie numérique africaine. Cette formation vous prépare à créer, lancer et gérer une boutique en ligne rentable, en maîtrisant les outils techniques, les stratégies marketing et les aspects logistiques et financiers du commerce électronique.",
+            "contenu_formation": [
+                "Création et configuration d'une boutique en ligne",
+                "Marketing digital appliqué à l'e-commerce",
+                "Logistique, gestion des stocks et des commandes",
+                "Systèmes de paiement en ligne (Mobile Money, Stripe)",
+                "Relation client et service après-vente digital",
+                "SEO et acquisition de trafic pour les boutiques en ligne",
+                "Analyse des performances et optimisation des ventes",
+                "Modèles économiques : dropshipping, marketplace, D2C"
+            ],
+            "modules": [
+                {
+                    "titre": "Création de Boutique en Ligne",
+                    "description": "Lancement et personnalisation d'une boutique Shopify ou WooCommerce, gestion du catalogue produits et des variantes."
+                },
+                {
+                    "titre": "Marketing E-Commerce",
+                    "description": "Publicités Facebook et Google pour le e-commerce, retargeting, emailing promotionnel et fidélisation client."
+                },
+                {
+                    "titre": "Logistique & Paiement",
+                    "description": "Gestion des stocks, intégration des modes de livraison, configuration des systèmes de paiement Mobile Money et cartes bancaires."
+                },
+                {
+                    "titre": "Relation Client & SAV",
+                    "description": "Gestion des avis clients, traitement des réclamations, politiques de retour, chat en direct et automatisation du support."
+                },
+                {
+                    "titre": "SEO & Acquisition de Trafic",
+                    "description": "Optimisation SEO des fiches produits, stratégie de contenu, création de trafic organique et partenariats d'influence."
+                },
+                {
+                    "titre": "Analyse & Optimisation",
+                    "description": "Suivi des KPIs e-commerce (taux de conversion, panier moyen, taux d'abandon), tests A/B et optimisation des pages produits."
+                }
+            ],
+            "competences": [
+                "Shopify & WooCommerce",
+                "Facebook Ads & Google Shopping",
+                "Gestion des stocks",
+                "Intégration Mobile Money",
+                "Google Analytics & Search Console",
+                "Email marketing e-commerce",
+                "Dropshipping & sourcing",
+                "Photographie produit"
+            ],
+            "debouches": [
+                "Responsable E-Commerce",
+                "Gestionnaire de Boutique en Ligne",
+                "Traffic Manager",
+                "Chargé de Clientèle Digitale",
+                "Entrepreneur E-Commerce",
+                "Consultant en Vente en Ligne"
+            ]
+        },
+        {
+            "id": "trading",
+            "nom": "Trading",
+            "categorie": "business",
+            "niveau": "initiation",
+            "duree": "1 mois",
+            "duree_mois": 1,
+            "scolarite": 100000,
+            "scolarite_label": "100 000 FCFA",
+            "scolarite_type": "total",
+            "diplome_requis": "Baccalauréat",
+            "vedette": false,
+            "image": "/fci-feride-dev.jpeg",
+            "description": "Une formation intensive qui vous initie aux marchés financiers et aux techniques de trading. Vous apprendrez à analyser les marchés, à gérer votre capital avec discipline et à élaborer des stratégies de trading adaptées au Forex, aux cryptomonnaies et aux indices boursiers.",
+            "contenu_formation": [
+                "Fondamentaux des marchés financiers",
+                "Analyse technique et lecture des graphiques",
+                "Gestion du risque et du capital",
+                "Stratégies de trading (Forex, cryptomonnaies, indices)",
+                "Psychologie du trader et discipline",
+                "Utilisation des plateformes de trading",
+                "Simulations et trading sur compte démo"
+            ],
+            "modules": [
+                {
+                    "titre": "Marchés Financiers",
+                    "description": "Fonctionnement des marchés Forex, actions, indices et cryptomonnaies, intervenants, sessions de marché et cotations."
+                },
+                {
+                    "titre": "Analyse Technique",
+                    "description": "Lecture des chandeliers japonais, supports et résistances, tendances, figures chartistes et indicateurs (RSI, MACD, Bollinger)."
+                },
+                {
+                    "titre": "Gestion du Risque",
+                    "description": "Calcul du lot, ratio risque/récompense, stop-loss, take-profit, gestion du drawdown et règles de money management."
+                },
+                {
+                    "titre": "Stratégies de Trading",
+                    "description": "Scalping, day trading et swing trading, stratégies sur le Forex, les cryptomonnaies et les indices majeurs."
+                },
+                {
+                    "titre": "Psychologie & Discipline",
+                    "description": "Gestion des émotions, biais cognitifs en trading, routine du trader, tenue d'un journal de trading et plan de trading."
+                },
+                {
+                    "titre": "Pratique sur Compte Démo",
+                    "description": "Application des stratégies sur MetaTrader 4/5 et TradingView, analyse de trades passés et amélioration continue."
+                }
+            ],
+            "competences": [
+                "Analyse technique (chandeliers, indicateurs)",
+                "MetaTrader 4 & 5",
+                "TradingView",
+                "Money management",
+                "Plan de trading",
+                "Gestion des émotions",
+                "Lecture du flux d'ordres"
+            ],
+            "debouches": [
+                "Trader Indépendant",
+                "Analyste de Marchés Financiers",
+                "Conseiller en Investissement",
+                "Gestionnaire de Portefeuille",
+                "Formateur en Trading"
+            ]
+        }
+    ]
+}

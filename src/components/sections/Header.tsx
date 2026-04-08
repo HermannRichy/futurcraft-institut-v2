@@ -5,14 +5,13 @@ import Link from "next/link";
 import {
     Drawer,
     DrawerContent,
-    DrawerHeader,
     DrawerTitle,
     DrawerTrigger,
     DrawerClose,
 } from "@/components/ui/drawer";
 import { Button } from "@/components/ui/button";
 import { Menu, Home, Info, BookOpen, Mail, User, X } from "lucide-react";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -29,8 +28,8 @@ const navLinks = [
         exact: false,
     },
     {
-        href: "/formations",
-        label: "Formations",
+        href: "/filieres",
+        label: "Nos filières",
         icon: <BookOpen className="w-4 h-4" />,
         exact: false,
     },
@@ -44,7 +43,6 @@ const navLinks = [
 
 export default function Header() {
     const pathname = usePathname();
-    const router = useRouter();
     const isActive = (href: string) => {
         return pathname === href || (pathname.startsWith(href) && href !== "/");
     };
@@ -66,7 +64,7 @@ export default function Header() {
 
                 {/* ── Navigation desktop ────────────────────────────── */}
                 <nav className="hidden lg:flex items-center gap-1">
-                    {navLinks.map(({ href, label, exact }) => (
+                    {navLinks.map(({ href, label }) => (
                         <Link
                             key={href}
                             href={href}
