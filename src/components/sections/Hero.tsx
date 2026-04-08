@@ -1,25 +1,25 @@
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
-import { User } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function Hero() {
     return (
         <section className="py-10 px-4 md:px-12 min-h-screen max-w-6xl mx-auto">
-            <article className="flex flex-col items-center justify-center text-center gap-y-4">
+            <article className="flex flex-col items-center justify-center text-center gap-y-4 max-w-2xl mx-auto">
                 <Badge>Ton avenir commence ici</Badge>
-                <h2 className="text-lg font-techovier">
-                    Acquiers des compétences digitales pour booster ta carrière
-                    !
+                <h2 className="text-lg lg:text-4xl font-techovier">
+                    Acquiers des compétences pratiques pour commencer ta
+                    carrière dans le numérique!
                 </h2>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm lg:text-lg text-muted-foreground">
                     Nous formons en Cyber Sécurité, Développement web, UI/UX
-                    Design... et plein d'autres métiers dans le numérique.
+                    Design... et plein d&apos;autres métiers du numérique.
                 </p>
                 <Button asChild>
-                    <Link href="/inscription">
-                        <User className="w-4 h-4" />
-                        Inscription
+                    <Link href="#formations">
+                        Voir nos formations
+                        <ArrowRight className="w-4 h-4" />
                     </Link>
                 </Button>
             </article>

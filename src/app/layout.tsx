@@ -5,8 +5,8 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 const fontSans = Outfit({
-  subsets: ["latin"],
-  variable: "--font-sans",
+    subsets: ["latin"],
+    variable: "--font-sans",
 });
 
 const techovier = localFont({
@@ -15,22 +15,29 @@ const techovier = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "FuturCraft Institut",
-  description: "Centre de formation professionnelle",
+    title: "FuturCraft Institut",
+    description: "Centre de formation professionnelle",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="fr" suppressHydrationWarning>
-        <body className={`${fontSans.variable} ${techovier.variable} antialiased font-sans`}>
-            <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-                {children}
-            </ThemeProvider>
-      </body>
-    </html>
-  );
+    return (
+        <html lang="fr" className="scroll-smooth" suppressHydrationWarning>
+            <body
+                className={`${fontSans.variable} ${techovier.variable} antialiased font-sans`}
+            >
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="dark"
+                    enableSystem
+                    disableTransitionOnChange
+                >
+                    {children}
+                </ThemeProvider>
+            </body>
+        </html>
+    );
 }
