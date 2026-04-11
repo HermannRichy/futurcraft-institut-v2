@@ -43,7 +43,7 @@ export default function MissionValeurs() {
                             <span className="text-5xl font-techovier font-bold text-blue-400 leading-none">2022</span>
                             <span className="text-sm font-semibold mt-1.5">Année de fondation</span>
                             <span className="text-xs text-muted-foreground mt-0.5">
-                                Lancé à Abidjan avec une poignée de formateurs passionnés et une ambition claire.
+                                Lancé à Godomey, Bénin, avec une poignée de formateurs passionnés et une ambition claire.
                             </span>
                         </div>
                     </div>

@@ -12,9 +12,12 @@ import {
     Clock,
     Send,
     MessageSquare,
-    Facebook,
-    Instagram,
 } from "lucide-react";
+import {
+    IconBrandFacebook,
+    IconBrandWhatsapp,
+    IconBrandTiktok,
+} from "@tabler/icons-react";
 import { useState } from "react";
 
 const schema = z.object({
@@ -31,21 +34,21 @@ const contactInfos = [
         icon: MapPin,
         color: "blue",
         label: "Adresse",
-        value: "Abidjan, Côte d'Ivoire",
-        sub: "Cocody, Riviera Palmeraie",
+        value: "Godomey PK14, Route Ouidah",
+        sub: "Immeuble Supermarché Ô Bénin",
     },
     {
         icon: Phone,
         color: "green",
         label: "Téléphone",
-        value: "+225 07 07 07 07 07",
+        value: "+229 01 4332 78 32",
         sub: "Lun – Sam, 08h – 18h",
     },
     {
         icon: Mail,
         color: "primary",
         label: "E-mail",
-        value: "contact@futurcraft.ci",
+        value: "futurcraftinstitut@gmail.com",
         sub: "Réponse sous 24h",
     },
     {
@@ -112,21 +115,14 @@ export default function FormulaireContact() {
                     <div className="bg-card border border-border rounded-2xl p-5">
                         <p className="text-[11px] font-semibold text-muted-foreground tracking-widest uppercase mb-3">Réseaux sociaux</p>
                         <div className="flex gap-3">
-                            <a
-                                href="https://facebook.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center hover:bg-blue-500/20 transition-colors duration-200"
-                            >
-                                <Facebook className="w-4 h-4 text-blue-400" />
+                            <a href="https://facebook.com/futurcraftinstitut" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center hover:bg-blue-500/20 transition-colors duration-200">
+                                <IconBrandFacebook size={18} className="text-blue-400" />
                             </a>
-                            <a
-                                href="https://instagram.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-10 h-10 rounded-xl bg-pink-500/10 border border-pink-500/20 flex items-center justify-center hover:bg-pink-500/20 transition-colors duration-200"
-                            >
-                                <Instagram className="w-4 h-4 text-pink-400" />
+                            <a href="https://wa.me/22943327832" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center hover:bg-green-500/20 transition-colors duration-200">
+                                <IconBrandWhatsapp size={18} className="text-green-400" />
+                            </a>
+                            <a href="https://tiktok.com/@futurcraftinstitut" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl bg-foreground/5 border border-border flex items-center justify-center hover:bg-foreground/10 transition-colors duration-200">
+                                <IconBrandTiktok size={18} className="text-foreground/70" />
                             </a>
                         </div>
                     </div>
