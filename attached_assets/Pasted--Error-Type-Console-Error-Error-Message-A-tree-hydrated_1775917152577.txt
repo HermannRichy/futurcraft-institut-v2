@@ -1,0 +1,68 @@
+## Error Type
+Console Error
+
+## Error Message
+A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <Header>
+      <header className="sticky top...">
+        <div className="max-w-6xl ...">
+          <LinkComponent>
+          <nav>
+          <Button>
+          <Drawer>
+            <Root data-slot="drawer">
+              <Dialog defaultOpen={false} onOpenChange={function onOpenChange} open={false}>
+                <DialogProvider scope={undefined} triggerRef={{current:null}} contentRef={{current:null}} ...>
+                  <DrawerTrigger asChild={true} className="lg:hidden">
+                    <DialogTrigger data-slot="drawer-tri..." asChild={true} className="lg:hidden">
+                      <Primitive.button type="button" aria-haspopup="dialog" aria-expanded={false} ...>
+                        <Primitive.button.Slot type="button" aria-haspopup="dialog" aria-expanded={false} ...>
+                          <Primitive.button.SlotClone type="button" aria-haspopup="dialog" aria-expanded={false} ...>
+                            <Button variant="ghost" size="icon" type="button" aria-haspopup="dialog" ...>
+                              <button
+                                data-slot="drawer-trigger"
+                                data-variant="ghost"
+                                data-size="icon"
+                                className={"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-m..."}
+                                type="button"
+                                aria-haspopup="dialog"
+                                aria-expanded={false}
++                               aria-controls="radix-_R_iatmlb_"
+-                               aria-controls="radix-_R_46atmlb_"
+                                data-state="closed"
+                                onClick={function handleEvent}
+                                ref={function}
+                              >
+                  ...
+
+
+
+    at button (<anonymous>:null:null)
+    at Button (src/components/ui/button.tsx:52:5)
+    at Header (src/components/sections/Header.tsx:102:25)
+    at DrawerTrigger (src/components/ui/drawer.tsx:17:10)
+    at Header (src/components/sections/Header.tsx:101:21)
+    at Home (src/app/page.tsx:12:13)
+
+## Code Frame
+  50 |
+  51 |   return (
+> 52 |     <Comp
+     |     ^
+  53 |       data-slot="button"
+  54 |       data-variant={variant}
+  55 |       data-size={size}
+
+Next.js version: 16.1.4 (Turbopack)
