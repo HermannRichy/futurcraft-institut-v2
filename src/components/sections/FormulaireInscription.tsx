@@ -208,19 +208,27 @@ export default function FormulaireInscription() {
 
                     {/* Processus */}
                     <div className="bg-card border border-border rounded-2xl p-6">
-                        <p className="text-[11px] font-semibold text-muted-foreground tracking-widest uppercase mb-4">Processus d'admission</p>
-                        <div className="space-y-4">
+                        <p className="text-[11px] font-semibold text-muted-foreground tracking-widest uppercase mb-6">Processus d'admission</p>
+                        <div className="relative flex flex-col gap-0">
                             {[
-                                { step: "01", label: "Soumission du dossier", desc: "Remplis ce formulaire" },
+                                { step: "01", label: "Soumission du dossier", desc: "Remplis ce formulaire en ligne" },
                                 { step: "02", label: "Entretien pédagogique", desc: "Appel ou visite sous 48h" },
-                                { step: "03", label: "Confirmation", desc: "Validation et paiement" },
+                                { step: "03", label: "Confirmation", desc: "Validation et paiement des frais" },
                                 { step: "04", label: "Bienvenue à FCI !", desc: "Tu rejoins la communauté" },
-                            ].map(({ step, label, desc }) => (
-                                <div key={step} className="flex items-start gap-3">
-                                    <span className="text-2xl font-techovier font-bold text-primary/30 leading-none w-8 shrink-0">{step}</span>
-                                    <div>
+                            ].map(({ step, label, desc }, i, arr) => (
+                                <div key={step} className="relative flex items-start gap-4">
+                                    {/* Ligne verticale de connexion */}
+                                    {i < arr.length - 1 && (
+                                        <div className="absolute left-[17px] top-9 bottom-0 w-px bg-border" />
+                                    )}
+                                    {/* Numéro bulle */}
+                                    <div className="w-9 h-9 rounded-full border border-primary/30 bg-primary/10 flex items-center justify-center shrink-0 z-10">
+                                        <span className="text-xs font-bold text-primary">{step}</span>
+                                    </div>
+                                    {/* Texte */}
+                                    <div className="pb-7">
                                         <p className="text-sm font-semibold leading-snug">{label}</p>
-                                        <p className="text-xs text-muted-foreground">{desc}</p>
+                                        <p className="text-xs text-muted-foreground mt-0.5">{desc}</p>
                                     </div>
                                 </div>
                             ))}
