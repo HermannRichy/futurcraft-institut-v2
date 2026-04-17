@@ -12,6 +12,8 @@ import {
     Sun,
     Moon,
     ChevronRight,
+    FileText,
+    Banknote,
 } from "lucide-react";
 import { useState } from "react";
 import filieres from "@/data/filieres.json";
@@ -220,6 +222,55 @@ export default function FormulaireInscription() {
                                         <p className="text-sm font-semibold leading-snug">{label}</p>
                                         <p className="text-xs text-muted-foreground">{desc}</p>
                                     </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Frais d'inscription */}
+                    <div className="bg-card border border-border rounded-2xl p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <div className="w-7 h-7 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center shrink-0">
+                                <Banknote className="w-4 h-4 text-primary" />
+                            </div>
+                            <p className="text-[11px] font-semibold text-muted-foreground tracking-widest uppercase">Frais d'inscription</p>
+                        </div>
+                        <div className="space-y-2">
+                            {[
+                                { label: "Uniforme (complet)", montant: "15 000 F" },
+                                { label: "Badge & Documents", montant: "10 000 F" },
+                                { label: "Inscription", montant: "15 000 F" },
+                            ].map(({ label, montant }) => (
+                                <div key={label} className="flex items-center justify-between text-sm">
+                                    <span className="text-muted-foreground">{label}</span>
+                                    <span className="font-medium tabular-nums">{montant}</span>
+                                </div>
+                            ))}
+                            <div className="border-t border-border mt-3 pt-3 flex items-center justify-between">
+                                <span className="text-sm font-semibold">Total</span>
+                                <span className="text-primary font-bold text-base tabular-nums">40 000 F</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Documents requis */}
+                    <div className="bg-card border border-border rounded-2xl p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <div className="w-7 h-7 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center shrink-0">
+                                <FileText className="w-4 h-4 text-primary" />
+                            </div>
+                            <p className="text-[11px] font-semibold text-muted-foreground tracking-widest uppercase">Documents requis</p>
+                        </div>
+                        <div className="space-y-2">
+                            {[
+                                "Copie de pièce d'identité",
+                                "2 photos d'identité",
+                                "Copie du dernier diplôme ou du Bac",
+                                "Contrat de formation (à retirer à l'institut)",
+                            ].map((doc) => (
+                                <div key={doc} className="flex items-start gap-2 text-sm">
+                                    <CheckCircle className="w-3.5 h-3.5 text-primary mt-0.5 shrink-0" />
+                                    <span className="text-muted-foreground leading-snug">{doc}</span>
                                 </div>
                             ))}
                         </div>
